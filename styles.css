@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 50px 50px;
+    background-color: grey;
+    color: honeydew;
+}
+
+.bottom-header {
+    display: grid;
+    grid-template-columns: 1fr 100px 100px 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 1fr 80vh;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.main {
+    grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
+}
+
+.card {
+    height: 100px;
+    border: 1px solid black;
+}
+
+.dashboard {
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: blue;
+}
+
+.updates {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
